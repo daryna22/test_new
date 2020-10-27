@@ -21,6 +21,9 @@
         <p>Some text</p>
     </body>
     </html>
+## Пример дизайна
+***
+![Иллюстрация к проекту](https://github.com/daryna22/test_new/raw/main/design.png)
 ### Сайт содержит разделы
 - Главная 
 - Услуги 
