@@ -1,0 +1,22 @@
+{
+  "name": "test_new",
+  "version": "1.0.0",
+  "description": "***\r ![Иллюстрация к проекту](https://github.com/daryna22/test_new/raw/main/logo.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daryna22/test_new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daryna22/test_new/issues"
+  },
+  "homepage": "https://github.com/daryna22/test_new#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
