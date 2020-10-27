@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/daryna22/test_new#readme",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "normalize.css": "^8.0.1"
   }
 }
