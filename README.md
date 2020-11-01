@@ -1,6 +1,6 @@
 # Проект сайта "Единый центр записи"
 ***
-![Иллюстрация к проекту](https://github.com/daryna22/test_new/raw/main/logo.png)  
+![Иллюстрация к проекту](https://github.com/daryna22/test_new/raw/main/images/logo.png)  
 
 Сайт предназначен для записи на обследования и диганостику (для клиентов на территории Украины)
 *При создании проект использовались:*
@@ -23,7 +23,7 @@
     </html>
 ## Пример дизайна
 ***
-![Иллюстрация к проекту](https://github.com/daryna22/test_new/raw/main/design.png)
+![Иллюстрация к проекту](https://github.com/daryna22/test_new/raw/main/images/design.png)
 ### Сайт содержит разделы
 - Главная 
 - Услуги 
