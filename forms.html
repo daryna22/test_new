@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <script>
+        function sizePic () {
+            size = document.getElementById("size") .value;
+            img = document.getElementById("pic");
+            img.width = 60 + 40*size;
+        }
+    </script>
+</head>
+<body>
+<table border="1" cellpadding="15" width="100%">
+    <tr>
+        <td align="center">
+        <form>
+            <p><select name="select" size="1">
+                <option selected value="a1">Вариант 1</option>
+                <option value="a2">Вариант 2</option>
+                <option value="a3">Вариант 3</option>
+                <option value="a4">Вариант 4</option>
+                <option value="a5">Вариант 5</option>
+            </select>
+            <input type="submit" value="Отправить">
+        </p>
+        </form>
+    </td>
+    <td align="center">
+        <form>
+            <p><select name="select" size="5" multiple>
+                <option selected value="a1">Вариант 1</option>
+                <option value="a2">Вариант 2</option>
+                <option value="a3">Вариант 3</option>
+                <option value="a4">Вариант 4</option>
+                <option value="a5">Вариант 5</option>
+            </select>
+            <input type="submit" value="Отправить">
+        </p>
+        </form>
+    </td>
+    <td align="center">
+        <form>
+            <p><b>Укажите цифру:</b></p>
+            <p>
+                <input name="num" value="4" size="5" maxlength="1" pattern="[0-9]{1}">
+            </p>
+        </form>
+    </td>
+    <td align="center">
+        <form>
+            <p><select name="select" size="1" multiple>
+                <option selected value="a1">Вариант 1</option>
+                <option value="a2">Вариант 2</option>
+                <option value="a3">Вариант 3</option>
+                <option value="a4">Вариант 4</option>
+                <option value="a5">Вариант 5</option>
+            </select>
+    </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <p><b>Размер рисунка:</b> <input type="range" min="1" max="5" id="size"
+            oninput="sizePic ()" value="3"></p>
+            <p><img src="images/pump.jpg" alt="pumpkin" id="pic" width="180"></p>
+        </td>
+        <td align="center">
+            <form>
+                <input type="reset" value="Очистить">
+            </form>
+        </td>
+        <td align="center">
+            <form>
+                <p><input type="search" name="q" placeholder="Поиск по сайту">
+                <input type="submit" value="Найти"> </p>
+            </form>
+        </td>
+        <td align="center">
+            <form>
+                <p><b>Укажите цвет фона:</b><input type="color" name="bg" value="#ff0000">
+                <input type="submit" value="Выбрать"> </p>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <form>
+                <p><b>Укажите</b></p>
+                <p> <input type="radio" name="answer" value="a1"><b>Radio BUTTON</b><br>
+                <input type="radio" name="answer" value="a2"><b>Radio BUTTON</b><br>
+                <input type="radio" name="answer" value="a3"><b>Radio BUTTON</b>
+                </p>
+                <p><input type="submit" value="Submit"></p>
+            </form>
+        </td>
+        <td align="center">
+            <form>
+                <p><b>Введите текст:</b></p>
+                <p><textarea name="text"></textarea></p>
+                <p><input type="submit"></p>
+            </form>
+        </td>
+        <td align="center">
+            <form>
+                <p><b>Укажите дату:</b></p>
+                <p><input type="checkbox" name="a" value="2010">2010</p>
+                <p><input type="checkbox" name="a" value="2014">2014</p>
+                <p><input type="checkbox" name="a" value="2017">2017</p>
+                <p><input type="checkbox" name="a" value="2019">2019</p>
+                <p><input type="submit" value="Отправить"> </p>
+            </form>
+        </td>
+        <td align="center">
+            <form enctype="multipart/form-data" method="post">
+                <p><b>Загрузите фотографии</b></p>
+                <p><input type="file" name="photo" multiple accept="image/*">
+                <input type="submit" value="Отправить"> </p>
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
